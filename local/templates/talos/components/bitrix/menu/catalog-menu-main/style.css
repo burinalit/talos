@@ -1,0 +1,12 @@
+.index_cat_menu ul.catalog-menu .lvl-2{
+    display: block;
+    box-shadow: 2px 2px 2px 2px rgba(150,150,150, 0.3);
+}
+.index_cat_menu ul.catalog-menu>li:hover>a {
+    color: #fff;
+    background: #64b5f6;
+}
+.index_cat_menu ul.catalog-menu>li:active>a {
+    color: #fff;
+    background: #1976d2;
+}

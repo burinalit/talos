@@ -1,0 +1,80 @@
+
+/*
+.emarket-compare-list  a:hover{
+	background-position: 0px -34px !important;
+}*/
+.emarket-compare-list  a.deactivated:hover{
+	background-position: 0px 0px !important;
+}
+.emarket-compare-list .list-compare-hide{
+    display: none;
+}
+.emarket-compare-list:hover .list-compare-hide{
+    display: block;
+    margin-left: -165px;
+    top: 56px;
+    z-index: 1000;
+}
+.list-compare-hide ul{
+    margin: 0;
+    padding: 0;
+}
+.list-compare-hide ul li{
+    border-bottom: 1px solid #94bfdc ;   
+    padding: 3px;
+}
+.list-compare-hide ul li div{
+    display: inline-block;
+    vertical-align: top;
+}
+.list-compare-hide ul li div.compare-prod-name{
+    width: 76%;
+}
+.list-compare-hide ul li a{
+     font-size: 13px;
+    height: auto;
+    line-height: 20px;
+    text-decoration: none;
+    width: 100%;
+    color: #3f3f3f;
+    padding: 10px 0;
+}
+.list-compare-hide ul li a:hover{
+     color:#1763a6;
+}
+.list-compare-hide ul li.btn-item{
+    text-align: center;
+    background-color: #dceaf3;
+    padding: 15px 0;
+}
+.link-compare{
+    color: #fff;
+    display: inline-block;
+    margin: 0 !important;
+    width: 270px;
+    padding: 5px 0 ;
+    line-height: 20px;
+}
+.emarket-compare-list ul li  .mdi {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #e0e0e0;
+    cursor: pointer;
+    -webkit-transition: ease-out .3s;
+    transition: ease-out .3s;
+}
+.emarket-compare-list ul li .mdi:hover {
+    color: #7cb342;
+}
+.emarket-compare-list ul li .mdi:active {
+    color: #689f38;
+}
+.header_panel .btn_compare .bx_catalog_compare_form li a .compare-prod-name {
+    max-height: 60px;
+    overflow: hidden;
+    max-width: 70%;
+}
+.header_panel .btn_compare .bx_catalog_compare_form{
+	    outline: none;
+}
